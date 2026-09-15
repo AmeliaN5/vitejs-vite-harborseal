@@ -441,7 +441,7 @@ function TabEnclosure() {
    ================================================================ */
 function TabFeeding() {
   const qty = [
-    { stage: "신생 자돈 (약 2주령)", kg: 0.5 },
+    { stage: "새끼물범 (약 2주령)", kg: 0.5 },
     { stage: "어린 개체 (3–4주령)", kg: 1.75 },
     { stage: "성체", kg: 4.5 },
   ];
@@ -452,7 +452,7 @@ function TabFeeding() {
       <SectionIntro
         icon="fish"
         title="먹이 &amp; 영양 관리"
-        desc="야생에서 완전한 어식성(piscivorous)이며, 사육 하에서도 최소 3종 이상의 어종을 번갈아 급여해 영양 불균형을 예방합니다."
+        desc="야생에서 완전한 어식성(piscivorous)이며, 사육하에서도 최소 3종 이상의 어종을 번갈아 급여해 영양 불균형을 예방합니다."
       />
 
       <div className="grid grid--2col">
@@ -464,11 +464,11 @@ function TabFeeding() {
             <span className="chip chip--yes">청어 (Herring)</span>
             <span className="chip chip--yes">빙어류 (Smelt)</span>
             <span className="chip chip--yes">고등어 (Mackerel)</span>
-            <span className="chip chip--yes">까페린 (Capelin)</span>
+            <span className="chip chip--yes">열빙어 (Capelin)</span>
             <span className="chip chip--yes">오징어 (Squid)</span>
           </div>
           <p className="card__text" style={{ marginTop: 14 }}>
-            단일 어종만 지속 급여할 경우 지방·단백질 편중이 발생하므로, 최소 3종 이상을 조합해
+            단일 어종만 지속 급여할 경우 지방·단백질 편중이 발생하므로, 최소 3종 조합을 구성해
             자연 식성의 영양 프로필에 가깝게 구성합니다.
           </p>
         </Reveal>
@@ -477,7 +477,7 @@ function TabFeeding() {
             <Icon name="warn" /> 티아미네이스(Thiaminase) 주의
           </h3>
           <p className="card__text">
-            청어·까페린 등 일부 어종은 비타민 B1(티아민)을 분해하는 효소를 함유합니다. 이런
+            청어·열빙어 등 일부 어종은 비타민 B1(티아민)을 분해하는 효소를 함유합니다. 이런
             어종을 급여할 때는 <b>티아민 보충이 필수</b>이며, 보충하지 않을 경우 검출 한계 이하로
             떨어질 수 있습니다.
           </p>
@@ -624,7 +624,7 @@ function TabBreeding() {
       <SectionIntro
         icon="pup"
         title="번식 &amp; 새끼 관리"
-        desc="유럽 사육 하 물범의 번식기는 5–7월. 수중 교미, 착상 지연, 짧은 수유 기간이 특징입니다."
+        desc="유럽 사육하 물범의 번식기는 5–7월. 수중 교미, 착상 지연, 짧은 수유 기간이 특징입니다."
       />
 
       <Reveal className="card card--wide">
@@ -670,7 +670,7 @@ function TabBreeding() {
           <ul className="check-list">
             <li>Zoologic® Milk Matrix 30/55 분말 450ml</li>
             <li>여과수 450ml</li>
-            <li>생선 오일(연어·멘헤이든·까페린 등) 350ml</li>
+            <li>생선 오일(연어·멘헤이든·열빙어 등) 350ml</li>
             <li>레시틴 과립 1작은술</li>
             <li>기각류 전용 종합비타민 1정</li>
           </ul>
