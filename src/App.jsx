@@ -287,7 +287,7 @@ function TabOverview() {
           </h3>
           <p className="card__text">
             수면 위에서 몸 대부분을 물에 담근 채 코끝만 내놓고 규칙적으로 호흡하는{" "}
-            <b>보틀링(bottling)</b> 자세로 휴식·수면을 취합니다. 육상에서는 사회화·환모·일광욕이
+            <b>보���링(bottling)</b> 자세로 휴식·수면을 취합니다. 육상에서는 사회화·환모·일광욕이
             이루어지며, 하루 중 일정 시간은 반드시 홀아웃(haul-out) 공간에서 보냅니다.
           </p>
           <p className="card__text card__text--muted">
@@ -441,7 +441,7 @@ function TabEnclosure() {
    ================================================================ */
 function TabFeeding() {
   const qty = [
-    { stage: "신생 자돈 (약 2주령)", kg: 0.5 },
+    { stage: "새끼물범 (약 2주령)", kg: 0.5 },
     { stage: "어린 개체 (3–4주령)", kg: 1.75 },
     { stage: "성체", kg: 4.5 },
   ];
@@ -464,7 +464,7 @@ function TabFeeding() {
             <span className="chip chip--yes">청어 (Herring)</span>
             <span className="chip chip--yes">빙어류 (Smelt)</span>
             <span className="chip chip--yes">고등어 (Mackerel)</span>
-            <span className="chip chip--yes">까페린 (Capelin)</span>
+            <span className="chip chip--yes">열빙어 (Capelin)</span>
             <span className="chip chip--yes">오징어 (Squid)</span>
           </div>
           <p className="card__text" style={{ marginTop: 14 }}>
